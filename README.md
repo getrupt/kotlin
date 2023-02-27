@@ -24,7 +24,7 @@ Use the Rupt APIs in your Android app to manage user devices with ease.
 
    ```kotlin
    // REQUIRED
-   Sabil.configure(this, "<#client id#>")
+   Rupt.configure(this, "<#client id#>")
    ```
 
 4. Attach the device to the user or identify the device without a user.
