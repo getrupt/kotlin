@@ -1,6 +1,6 @@
 # Quick start
 
-Use the Sabil APIs in your Android app to manage user devices with ease.
+Use the Rupt APIs in your Android app to manage user devices with ease.
 
 ### Installation
 
@@ -31,9 +31,9 @@ Use the Sabil APIs in your Android app to manage user devices with ease.
 
    ```kotlin
    // Set this as soon as the user ID is available and attach the device.
-   Sabil.userId = "<#user id#>"
-   Sabil.attach(supportFragmentManager) {
-    Toast.makeText(this, "Attached. Device Id -> ${Sabil.deviceId}", Toast.LENGTH_LONG).show()
+   Rupt.userId = "<#user id#>"
+   Rupt.attach(supportFragmentManager) {
+    Toast.makeText(this, "Attached. Device Id -> ${Rupt.deviceId}", Toast.LENGTH_LONG).show()
    }
    ```
 
@@ -41,8 +41,8 @@ Use the Sabil APIs in your Android app to manage user devices with ease.
    Both `attach` and `identify` accept metadata
 
    ```kotlin
-   Sabil.identify {
-    Log.d("Sabil", "Device identified. Identity: ${it?.identity}")
+   Rupt.identify {
+    Log.d("Rupt", "Device identified. Identity: ${it?.identity}")
    }
    ```
 
@@ -53,11 +53,11 @@ Use the Sabil APIs in your Android app to manage user devices with ease.
    and `onLimitExceeded` callbacks.
 
    ```kotlin
-   Sabil.onLogoutCurrentDevice = {
-           // logout the current device
-       }
+   Rupt.onLogoutCurrentDevice = {
+       // logout the current device
+   }
 
-       Sabil.onLimitExceeded = {
-           // the user has too many devices using their account
-       }
+   Rupt.onLimitExceeded = {
+       // the user has too many devices using their account
+   }
    ```
