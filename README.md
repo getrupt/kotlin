@@ -15,7 +15,7 @@ Use the Sabil APIs in your Android app to manage user devices with ease.
    ```
 2. Add the dependency
    ```
-   dependencies { implementation 'com.github.sabil-io:sabil-android-sdk:2.0.11' }
+   dependencies { implementation 'com.github.getrupt:kotlin:2.1.0' }
    ```
 
 ### Usage
