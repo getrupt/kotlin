@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="too_many_devices_using_your_account">Too many devices using your account.</string>
+    <string name="logout_the_selected_devices">Logout the selected devices</string>
+    <string name="device_icon">Device icon</string>
+    <string name="last_update">Last update</string>
+    <string name="now">Now</string>
+    <plurals name="logout_to_proceed">
+        <item quantity="zero">To proceed, please log out of 0 devices from the list below.</item>
+        <item quantity="one">To proceed, please log out of one device from the list below.</item>
+        <item quantity="other">To proceed, please log out of %d device from the list below.</item>
+    </plurals>
+
+</resources>
